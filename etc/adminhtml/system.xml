@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
+    <system>
+        <tab id="codilar_extension_tab" translate="label" sortOrder="100" class="codilar_config_logo">
+            <label>Codilar</label>
+        </tab>
+    </system>
+</config>

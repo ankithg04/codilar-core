@@ -1,0 +1,19 @@
+.admin__menu #menu-codilar-core-extensions > a::before {
+    content: '' !important;
+    background: url('../images/codilar_menu_xml.png') no-repeat;
+    margin: 0 auto .5rem;
+    width: 22px;
+    height: 22px;
+}
+.admin__menu #menu-codilar-core-extensions > a:hover:before {
+    background: url('../images/codilar_logo_hover.png') no-repeat;
+}
+.config-nav-block.codilar_config_logo strong:before {
+  background-image: url('../images/codilar_system_xml.png');
+  width: 30px;
+  height: 26px;
+  content: '';
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}

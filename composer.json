@@ -1,0 +1,22 @@
+{
+    "name": "ankith/module-core",
+    "description": "Module Search",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "ankith@codilar.com",
+            "name": "ankith"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codilar\\Core\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
