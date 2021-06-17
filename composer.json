@@ -2,22 +2,32 @@
     "name": "ankith/codilar-core",
     "description": "Module Core",
     "type": "magento2-module",
-    "license": "proprietary",
+    "version": "1.0.3",
+    "license": [
+    	"OSL-3.0",
+    	"AFL-3.0"
+    ],
     "authors": [
-        {
-            "email": "ankith@codilar.com",
-            "name": "ankith",
-            "role": "Magento Developer"
-        }
+      {
+        "email": "ankith@codilar.com",
+        "name": "ankith",
+        "role": "Magento Developer"
+      }
     ],
     "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+      }
+    ],
     "require": {},
     "autoload": {
+        "files": [ 
+	        "registration.php" 
+        ],
         "psr-4": {
             "Codilar\\Core\\": ""
-        },
-        "files": [
-            "registration.php"
-        ]
+        }
     }
 }

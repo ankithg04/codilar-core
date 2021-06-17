@@ -6,7 +6,9 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Codilar_Core::extensions" title="Codilar Extensions" sortOrder="120"/>
+                            <resource id="Codilar_Core::extensions" title="Codilar Extensions" sortOrder="120">
+                                <resource id="Codilar_Core::configuration" title="Codilar Core Configuration" sortOrder="120"/>
+                            </resource>
                         </resource>
                     </resource>
                 </resource>
