@@ -10,7 +10,7 @@
             "role": "Magento Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "version": "1.0.1",
     "require": {},
     "autoload": {
         "psr-4": {
