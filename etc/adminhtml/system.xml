@@ -4,5 +4,18 @@
         <tab id="codilar_extension_tab" translate="label" sortOrder="100" class="codilar_config_logo">
             <label>Codilar</label>
         </tab>
+        <section id="codilar" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Codilar Core</label>
+            <tab>codilar_extension_tab</tab>
+            <resource>Codilar_Core::extensions</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable The Codilar Core Module</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
     </system>
 </config>
